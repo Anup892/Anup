@@ -1,2 +1,171 @@
-# Anup
-My first webpage
+<html>
+    <head>
+      <!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   <img src="you.png" height="80" width="160" align="centre">
+       <h1><font color="white" face="times new roman"<marquee><b>Disclaimer: This form is strictly for those who are interested in watching porn."</b></marquee></font></h1><br>
+  <style>
+    body {
+      background: url(bg0.jpg) repeat;
+      margin: 0;
+      padding: 0;
+      background: cover;
+    }
+      .taskbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .taskbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 18px 22px;
+            text-decoration: none;
+        }
+     
+    </style>
+<div class="taskbar">
+<a href="index.html">Home</a>
+    <a href="About us.html">About</a>
+    <a href="service.html">Services</a>
+    <a href="https://www.facebook.com/profile.php?id=100072716192369&mibextid=kFxxJD">Contact</a>
+</div>
+
+<br><br>&nbsp;&nbsp;<body txtcolor="red" bgcolor="00ffff"> 
+<font face="wildwest"><table></table><b><u>You can fill your details below to get access to another site:</u></b></font>
+<br><br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+</head>
+<body>
+  
+<form  id="myForm" action="forsite.html" method="post" onsubmit="return validateForm()">
+    <label for="fname"><b> &nbsp;&nbsp;First name</b>:</label><br>
+    <input type="text" id="fname" placeholder="First name" name="fname" required><br>
+    <label for="lname"<b> &nbsp;&nbsp;Last Name</b>:</label><br>
+    <input type="text" id="lname" placeholder="Last name" name="lname" required><br>
+    <label for="email"><b> &nbsp;&nbsp;Email</b>:</label><br>
+    <input type="email" id="email" placeholder="Email id" name="email" required><br>
+    <label for="age"><b> &nbsp;&nbsp;Age</b>:</label><br>
+    <input type="number" id="age" placeholder="Age" name="age" required><br>
+       <b>Gender</b>
+   <select name="gender">
+   <option value="male">Male</option>
+   <option value="female">Female</option>
+   </select><br><br>
+    <b>Do you watch porn</b>
+   <select name="gender">
+   <option value="Yes, I love watching porn">Yes, I love watching porn</option>
+   <option value="yes but sometimes">Yes, but sometimes</option>
+   <option value="No, I don't watch porn">No, I don't watch porn.</option>
+   </select><br><br>
+  <input type="submit" value="Submit">
+    
+
+</form>
+
+<script>
+    function validateForm() {
+        var fname = document.getElementById("fname").value;
+        var lname = document.getElementById("lname").value;
+        var email = document.getElementById("email").value;
+        var age = document.getElementById("age").value;
+
+        if (fname == "" || lname == "" || email == "" || age =="") {
+            alert("Abe bakchodi mat kar aache se bhar laude.");
+            return false;
+        }
+        return true;
+    }
+  
+</script>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h5> &nbsp;&nbsp;TEST: Optional</h5>
+<div class="captcha">
+    &nbsp;&nbsp; <span id="num1">2</span> + <span id="num2">2</span> = <input type="text" id="captchaInput" maxlength="2" pattern="[0-9]*" required>
+    <button onclick="refreshCaptcha()">Refresh</button>
+<script>
+    function refreshCaptcha() {
+        var num1 = Math.floor(Math.random() * 10);
+        var num2 = Math.floor(Math.random() * 10);
+        document.getElementById("num1").textContent = num1;
+        document.getElementById("num2").textContent = num2;
+    }
+</script>
+
+</body>
+</html>
+
+
+<br><br><br><br><br><br><br><br><br><br><style>
+    /* Style for comments */
+    .comment {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+<h4>Comment Section</h4>
+
+<!-- Form for adding comments -->
+<form id="commentForm">
+    <textarea id="commentInput" placeholder="Add your comment"></textarea><br>
+    <div area="submit">
+    <button type="submit">Post Comment</button></submit>
+</form>
+
+<!-- Container for displaying comments -->
+<div id="commentsContainer"></div>
+
+<script>
+    // Function to handle form submission
+    document.getElementById('commentForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        var commentInput = document.getElementById('commentInput').value;
+        addComment(commentInput); // Call function to add comment
+        document.getElementById('commentInput').value = ''; // Clear input field after posting
+    });
+
+    // Function to add comment to the page
+    function addComment(comment) {
+        var commentContainer = document.getElementById('commentsContainer');
+        var newComment = document.createElement('div');
+        newComment.className = 'comment';
+        newComment.textContent = comment;
+        commentContainer.appendChild(newComment);
+    }
+</script>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h6 align="center">DESIGNED BY ANUP UPRETI</h6></font>
+</td>
+</body>
+</body>
+    <!-- Your HTML content here -->
+</body>
+</html>
+ 
